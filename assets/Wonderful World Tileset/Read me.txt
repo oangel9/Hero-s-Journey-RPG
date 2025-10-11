@@ -1,0 +1,18 @@
+​Thank you for purchasing this tileset! If you need any help adapting those tiles to the game engine of your choice, just send a comment on itch.io! I'd be glad to help!
+
+The tiles are all in 16x16 resolution. Some larger scenery will occupy multiple tiles.
+
+The tiles are adapted to the following game engines:
+
+-> Game Maker Studio
+-> RPG Maker VX/Ace
+-> RPG Maker MV/MZ
+
+License:
+You can use these resources in any project, commercial or not. You can modify the files for personal use, but you cannot upload them publicly. Giving credit is not mandatory, but I'll appreciate if you do.
+
+The contents of this pack may be updated in the future.
+
+My virtual hugs and good development! o/
+
+- Kazzter

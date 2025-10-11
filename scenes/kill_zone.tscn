@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://ipu0hjyq6agh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5csqv"]
+radius = 5.09902
+
+[node name="HurtZone" type="Area2D"]
+modulate = Color(1, 0.270588, 1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 2
+shape = SubResource("CircleShape2D_5csqv")
+debug_color = Color(0.823803, 0.370338, 0.403658, 0.42)
