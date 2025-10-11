@@ -2,13 +2,7 @@
 .import/
 export.cfg
 export_presets.cfg
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Backup files
 *.tmp
 *.bak
-*.old
 *.swp
+*.godot/
