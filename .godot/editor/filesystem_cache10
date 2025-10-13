@@ -1,80 +1,79 @@
-<<<<<<< HEAD
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1760369457
-icon.svg::CompressedTexture2D/CompressedTexture2D::143666802296138214::1758996194::1758996202::1::::<><><>0<>0<>9cff1be14389655a203217c37a4b973a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://::1760369757
+icon.svg::CompressedTexture2D/CompressedTexture2D::143666802296138214::1758996194::1760370259::1::::<><><>0<>0<>9cff1be14389655a203217c37a4b973a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1760149110::0::1::::<><><>0<>0<><>::
 ::res://assets/::1759099030
-::res://assets/All Tiles/::1759098142
-All the tiles.png::CompressedTexture2D/CompressedTexture2D::8877066553645923056::1758996240::1759098142::1::::<><><>0<>0<>ad51f5b14c84e70c31fc089078b4d68f<>res://.godot/imported/All the tiles.png-0b3a00b7e04f2464162df76f2e80caaf.ctex::
-::res://assets/PNGs/::1759099030
-animated lava spritesheet.png::CompressedTexture2D/CompressedTexture2D::4998275948428337511::1759099030::1759099030::1::::<><><>0<>0<>6f221131fb3986e002e64df47a6bfb1b<>res://.godot/imported/animated lava spritesheet.png-c6490ee9c08d9ae50f78f6376bfacf3c.ctex::
-chest animation.png::CompressedTexture2D/CompressedTexture2D::6197678860112916984::1759099030::1759099030::1::::<><><>0<>0<>c7a8dd3434272a2b43b49c2e16bdd183<>res://.godot/imported/chest animation.png-dee2ae8bda7980309f89fa465a858d00.ctex::
-compass.png::CompressedTexture2D/CompressedTexture2D::578469714769646498::1759099030::1759099030::1::::<><><>0<>0<>e893eafe9f5efb342619e8efaf251cd5<>res://.godot/imported/compass.png-13d485e10aa089608793b8f4e5a47a8c.ctex::
-desert rocks.png::CompressedTexture2D/CompressedTexture2D::8099380346621508477::1759099030::1759099030::1::::<><><>0<>0<>f8ccebb8a6ba8f43bb6f927350b57581<>res://.godot/imported/desert rocks.png-d5274580c4de9a93c115c5f0384d9b19.ctex::
-desert tileset.png::CompressedTexture2D/CompressedTexture2D::7531958970212247539::1759099030::1759099030::1::::<><><>0<>0<>c51416406d2ba466f7384bfbcb0fb252<>res://.godot/imported/desert tileset.png-f234812d855be75ec13654d88285ce67.ctex::
-dog animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::7154288020744893554::1759099030::1759099030::1::::<><><>0<>0<>9a10818b7f398daa01ecba7c73921869<>res://.godot/imported/dog animation spritesheet.png-68195899d86d95d7853c8b612e917db2.ctex::
-forest props and traps.png::CompressedTexture2D/CompressedTexture2D::7811772825389727736::1759099030::1759099030::1::::<><><>0<>0<>90dafe06d8269542a48656a4b9d3b412<>res://.godot/imported/forest props and traps.png-00fb8f97fe08ad966e24bb6ccb708a05.ctex::
-forest tileset.png::CompressedTexture2D/CompressedTexture2D::5969795859250470512::1759099030::1759099030::1::::<><><>0<>0<>17f30e152312c7a8f960cb9b769d7ec2<>res://.godot/imported/forest tileset.png-a96d830be6f39203a1bd6b50b83f65f3.ctex::
-fox animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::3292181819455725669::1759099030::1759099030::1::::<><><>0<>0<>b7e9c16a55456847cf7bb2de57fb7578<>res://.godot/imported/fox animation spritesheet.png-1efc3dbaac9742a579ddeea1c9490b07.ctex::
-lava tileset rocks.png::CompressedTexture2D/CompressedTexture2D::53776109435109792::1759099030::1759099030::1::::<><><>0<>0<>f0b08873426d300a0559a69c3ea084a4<>res://.godot/imported/lava tileset rocks.png-bf3d162d2fc65c05db3c47e550e9040a.ctex::
-lava tileset.png::CompressedTexture2D/CompressedTexture2D::6961765896523834825::1759099030::1759099030::1::::<><><>0<>0<>5fadb6aa57b988035d4ba2e9e401f401<>res://.godot/imported/lava tileset.png-33930016c3280518248a269a95586e6f.ctex::
-monkey animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::6032363841348136990::1759099030::1759099030::1::::<><><>0<>0<>d7a99e27dfdee701c7233411b9f6a084<>res://.godot/imported/monkey animation spritesheet.png-8cc062e5d161a44ec66f09f31de06bee.ctex::
-panda animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::8437919058022353309::1759099030::1759099030::1::::<><><>0<>0<>ca6bdcbd32539e695994f7a2e555029d<>res://.godot/imported/panda animation spritesheet.png-f293866f7db18a21dde7251f93151a88.ctex::
-player animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::8376954301778888094::1759099030::1759099030::1::::<><><>0<>0<>dbdb560f1bd222dbfbc88a1b1117e7eb<>res://.godot/imported/player animation spritesheet.png-f934ced4d652394a1988b00f5a030c02.ctex::
-scorpion animations spritesheet.png::CompressedTexture2D/CompressedTexture2D::5108566741423419202::1759099030::1759099030::1::::<><><>0<>0<>2ef69974b8d48cb6339a3c47819defba<>res://.godot/imported/scorpion animations spritesheet.png-2a19b06b8ec53146b2484e5a2930a8eb.ctex::
-snake animations spritesheet.png::CompressedTexture2D/CompressedTexture2D::5782917894811479577::1759099030::1759099030::1::::<><><>0<>0<>6864a4a68b1733d9ef90d0e71645f477<>res://.godot/imported/snake animations spritesheet.png-a612e2fcb91ee64417becf66be5333bb.ctex::
-xp, hearts and potion.png::CompressedTexture2D/CompressedTexture2D::3473805681424086838::1759099030::1759099030::1::::<><><>0<>0<>2199b53e1c8d0900d0f59f38626d01c3<>res://.godot/imported/xp, hearts and potion.png-c4c96f37148d4979d0bc3a12cf63d321.ctex::
-::res://assets/Sprites/::1759098135
-Constructions.png::CompressedTexture2D/CompressedTexture2D::6383603699893585752::1759098135::1759098135::1::::<><><>0<>0<>cde26e688975b3a9061c5ce1dafcb3a1<>res://.godot/imported/Constructions.png-f603f02b4630ae1428ce1a5206b37dc1.ctex::
-Free_Tilemap.png::CompressedTexture2D/CompressedTexture2D::1156130817449248325::1759098135::1759098135::1::::<><><>0<>0<>95fcabf99deb2972143807104b30f71b<>res://.godot/imported/Free_Tilemap.png-4664216b9848f49409f3c3bbb90b4f22.ctex::
-Ground_Tiles.png::CompressedTexture2D/CompressedTexture2D::7411291944512585781::1759098135::1759098135::1::::<><><>0<>0<>c261cbf58e0fe77e7b729c53881fcf82<>res://.godot/imported/Ground_Tiles.png-2b2309f178da5d798086e5aef667391d.ctex::
-Items&Tools.png::CompressedTexture2D/CompressedTexture2D::62687215040613941::1759098135::1759098135::1::::<><><>0<>0<>95e90d1b04eec45be6d1c411e898a554<>res://.godot/imported/Items&Tools.png-44652fbcaf92cc7b30b211272fb935ce.ctex::
-Stones.png::CompressedTexture2D/CompressedTexture2D::8598538428490583921::1759098135::1759098135::1::::<><><>0<>0<>7aaa7e206060ff1a581f30da4d8b9c6a<>res://.godot/imported/Stones.png-ee8dfc06ffcc64fdbac15e4d2d017e56.ctex::
-Trees.png::CompressedTexture2D/CompressedTexture2D::684199298283396090::1759098135::1759098135::1::::<><><>0<>0<>a0bb4468b8253ae7dbee121335e9299d<>res://.godot/imported/Trees.png-2a999d6e114a75aec329f14948592b29.ctex::
-Water_Tiles.png::CompressedTexture2D/CompressedTexture2D::649413225982584642::1759098135::1759098135::1::::<><><>0<>0<>ce21f64d5986de3b90c9932b901f621b<>res://.godot/imported/Water_Tiles.png-eefc9f43e290ac1c84273ac52b98fcd6.ctex::
+::res://assets/All Tiles/::1760369757
+All the tiles.png::CompressedTexture2D/CompressedTexture2D::8877066553645923056::1758996240::1760370259::1::::<><><>0<>0<>ad51f5b14c84e70c31fc089078b4d68f<>res://.godot/imported/All the tiles.png-0b3a00b7e04f2464162df76f2e80caaf.ctex::
+::res://assets/PNGs/::1760369757
+animated lava spritesheet.png::CompressedTexture2D/CompressedTexture2D::4998275948428337511::1759099030::1760370259::1::::<><><>0<>0<>6f221131fb3986e002e64df47a6bfb1b<>res://.godot/imported/animated lava spritesheet.png-c6490ee9c08d9ae50f78f6376bfacf3c.ctex::
+chest animation.png::CompressedTexture2D/CompressedTexture2D::6197678860112916984::1759099030::1760370259::1::::<><><>0<>0<>c7a8dd3434272a2b43b49c2e16bdd183<>res://.godot/imported/chest animation.png-dee2ae8bda7980309f89fa465a858d00.ctex::
+compass.png::CompressedTexture2D/CompressedTexture2D::578469714769646498::1759099030::1760370259::1::::<><><>0<>0<>e893eafe9f5efb342619e8efaf251cd5<>res://.godot/imported/compass.png-13d485e10aa089608793b8f4e5a47a8c.ctex::
+desert rocks.png::CompressedTexture2D/CompressedTexture2D::8099380346621508477::1759099030::1760370259::1::::<><><>0<>0<>f8ccebb8a6ba8f43bb6f927350b57581<>res://.godot/imported/desert rocks.png-d5274580c4de9a93c115c5f0384d9b19.ctex::
+desert tileset.png::CompressedTexture2D/CompressedTexture2D::7531958970212247539::1759099030::1760370259::1::::<><><>0<>0<>c51416406d2ba466f7384bfbcb0fb252<>res://.godot/imported/desert tileset.png-f234812d855be75ec13654d88285ce67.ctex::
+dog animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::7154288020744893554::1759099030::1760370259::1::::<><><>0<>0<>9a10818b7f398daa01ecba7c73921869<>res://.godot/imported/dog animation spritesheet.png-68195899d86d95d7853c8b612e917db2.ctex::
+forest props and traps.png::CompressedTexture2D/CompressedTexture2D::7811772825389727736::1759099030::1760370259::1::::<><><>0<>0<>90dafe06d8269542a48656a4b9d3b412<>res://.godot/imported/forest props and traps.png-00fb8f97fe08ad966e24bb6ccb708a05.ctex::
+forest tileset.png::CompressedTexture2D/CompressedTexture2D::5969795859250470512::1759099030::1760370259::1::::<><><>0<>0<>17f30e152312c7a8f960cb9b769d7ec2<>res://.godot/imported/forest tileset.png-a96d830be6f39203a1bd6b50b83f65f3.ctex::
+fox animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::3292181819455725669::1759099030::1760370259::1::::<><><>0<>0<>b7e9c16a55456847cf7bb2de57fb7578<>res://.godot/imported/fox animation spritesheet.png-1efc3dbaac9742a579ddeea1c9490b07.ctex::
+lava tileset rocks.png::CompressedTexture2D/CompressedTexture2D::53776109435109792::1759099030::1760370259::1::::<><><>0<>0<>f0b08873426d300a0559a69c3ea084a4<>res://.godot/imported/lava tileset rocks.png-bf3d162d2fc65c05db3c47e550e9040a.ctex::
+lava tileset.png::CompressedTexture2D/CompressedTexture2D::6961765896523834825::1759099030::1760370259::1::::<><><>0<>0<>5fadb6aa57b988035d4ba2e9e401f401<>res://.godot/imported/lava tileset.png-33930016c3280518248a269a95586e6f.ctex::
+monkey animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::6032363841348136990::1759099030::1760370259::1::::<><><>0<>0<>d7a99e27dfdee701c7233411b9f6a084<>res://.godot/imported/monkey animation spritesheet.png-8cc062e5d161a44ec66f09f31de06bee.ctex::
+panda animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::8437919058022353309::1759099030::1760370259::1::::<><><>0<>0<>ca6bdcbd32539e695994f7a2e555029d<>res://.godot/imported/panda animation spritesheet.png-f293866f7db18a21dde7251f93151a88.ctex::
+player animation spritesheet.png::CompressedTexture2D/CompressedTexture2D::8376954301778888094::1759099030::1760370259::1::::<><><>0<>0<>dbdb560f1bd222dbfbc88a1b1117e7eb<>res://.godot/imported/player animation spritesheet.png-f934ced4d652394a1988b00f5a030c02.ctex::
+scorpion animations spritesheet.png::CompressedTexture2D/CompressedTexture2D::5108566741423419202::1759099030::1760370259::1::::<><><>0<>0<>2ef69974b8d48cb6339a3c47819defba<>res://.godot/imported/scorpion animations spritesheet.png-2a19b06b8ec53146b2484e5a2930a8eb.ctex::
+snake animations spritesheet.png::CompressedTexture2D/CompressedTexture2D::5782917894811479577::1759099030::1760370259::1::::<><><>0<>0<>6864a4a68b1733d9ef90d0e71645f477<>res://.godot/imported/snake animations spritesheet.png-a612e2fcb91ee64417becf66be5333bb.ctex::
+xp, hearts and potion.png::CompressedTexture2D/CompressedTexture2D::3473805681424086838::1759099030::1760370259::1::::<><><>0<>0<>2199b53e1c8d0900d0f59f38626d01c3<>res://.godot/imported/xp, hearts and potion.png-c4c96f37148d4979d0bc3a12cf63d321.ctex::
+::res://assets/Sprites/::1760369757
+Constructions.png::CompressedTexture2D/CompressedTexture2D::6383603699893585752::1759098135::1760370259::1::::<><><>0<>0<>cde26e688975b3a9061c5ce1dafcb3a1<>res://.godot/imported/Constructions.png-f603f02b4630ae1428ce1a5206b37dc1.ctex::
+Free_Tilemap.png::CompressedTexture2D/CompressedTexture2D::1156130817449248325::1759098135::1760370260::1::::<><><>0<>0<>95fcabf99deb2972143807104b30f71b<>res://.godot/imported/Free_Tilemap.png-4664216b9848f49409f3c3bbb90b4f22.ctex::
+Ground_Tiles.png::CompressedTexture2D/CompressedTexture2D::7411291944512585781::1759098135::1760370260::1::::<><><>0<>0<>c261cbf58e0fe77e7b729c53881fcf82<>res://.godot/imported/Ground_Tiles.png-2b2309f178da5d798086e5aef667391d.ctex::
+Items&Tools.png::CompressedTexture2D/CompressedTexture2D::62687215040613941::1759098135::1760370260::1::::<><><>0<>0<>95e90d1b04eec45be6d1c411e898a554<>res://.godot/imported/Items&Tools.png-44652fbcaf92cc7b30b211272fb935ce.ctex::
+Stones.png::CompressedTexture2D/CompressedTexture2D::8598538428490583921::1759098135::1760370260::1::::<><><>0<>0<>7aaa7e206060ff1a581f30da4d8b9c6a<>res://.godot/imported/Stones.png-ee8dfc06ffcc64fdbac15e4d2d017e56.ctex::
+Trees.png::CompressedTexture2D/CompressedTexture2D::684199298283396090::1759098135::1760370260::1::::<><><>0<>0<>a0bb4468b8253ae7dbee121335e9299d<>res://.godot/imported/Trees.png-2a999d6e114a75aec329f14948592b29.ctex::
+Water_Tiles.png::CompressedTexture2D/CompressedTexture2D::649413225982584642::1759098135::1760370260::1::::<><><>0<>0<>ce21f64d5986de3b90c9932b901f621b<>res://.godot/imported/Water_Tiles.png-eefc9f43e290ac1c84273ac52b98fcd6.ctex::
 ::res://assets/Wonderful World Tileset/::1758996237
 Read me.txt::TextFile/TextFile::-1::1758996237::0::1::::<><><>0<>0<><>::
-::res://assets/Wonderful World Tileset/All Tiles/::1758998664
-All the tiles.png::CompressedTexture2D/CompressedTexture2D::7642643528482883038::1758996237::1758998664::1::::<><><>0<>0<>d3a6c054266a927852b333a9de3affaa<>res://.godot/imported/All the tiles.png-cf4ce33717a942dd38eac87ffaccc2ed.ctex::
-::res://assets/Wonderful World Tileset/Game Maker Tiles/::1758998664
-liquid1.png::CompressedTexture2D/CompressedTexture2D::3126535220934230489::1758996237::1758998664::1::::<><><>0<>0<>395a2de1144c46d0b24cf4095f3444b7<>res://.godot/imported/liquid1.png-99cf8bbbedfa04a41292d82339fd4b93.ctex::
-liquid2.png::CompressedTexture2D/CompressedTexture2D::5783399774012685417::1758996237::1758998664::1::::<><><>0<>0<>4d79b1609e0ef7a0defc03f85a13f147<>res://.godot/imported/liquid2.png-30289beb47cf7d14bf87ed4220d578e5.ctex::
-liquid3.png::CompressedTexture2D/CompressedTexture2D::2311589609220637931::1758996237::1758998664::1::::<><><>0<>0<>2841ee4f84fa4247831fdee16974db38<>res://.godot/imported/liquid3.png-97283ac9942165c55d407ac7e1d3d669.ctex::
-liquid4.png::CompressedTexture2D/CompressedTexture2D::8691661731091246787::1758996237::1758998664::1::::<><><>0<>0<>6ac9048782b7c4d1a467505cff3f8fb8<>res://.godot/imported/liquid4.png-abe95d6b0cacc93257ac322e9dc95ff3.ctex::
-liquid5.png::CompressedTexture2D/CompressedTexture2D::9065120694682106546::1758996237::1758998664::1::::<><><>0<>0<>0a668a5834bc4e9525ad0debe1044bac<>res://.godot/imported/liquid5.png-c689aea1031aee970fc3903a1e08f9b4.ctex::
-liquid6.png::CompressedTexture2D/CompressedTexture2D::7567995900538967865::1758996237::1758998664::1::::<><><>0<>0<>216b0c1f4fb3744a3a5f7b268522b9c1<>res://.godot/imported/liquid6.png-c5db21233e616b7c0b7e0dd54d657557.ctex::
-liquid7.png::CompressedTexture2D/CompressedTexture2D::1727354966356410467::1758996237::1758998664::1::::<><><>0<>0<>ffe3d15152c9f0ca1acb8eab1746efa7<>res://.godot/imported/liquid7.png-ef33a98eed8f9a19d63db73f23dc464c.ctex::
-Scenery Tiles.png::CompressedTexture2D/CompressedTexture2D::8285061351691124455::1758996237::1758998664::1::::<><><>0<>0<>98a0acd192920911c7e0046cddee5e0e<>res://.godot/imported/Scenery Tiles.png-02d8cb14bb37a38265018de0bdabc643.ctex::
-terrain0.png::CompressedTexture2D/CompressedTexture2D::6165649733382020616::1758996237::1758998664::1::::<><><>0<>0<>7eb589af56bf79fe6c6124966e2fc5a1<>res://.godot/imported/terrain0.png-d42246a72b7c47c8e732bbc7fd732eaf.ctex::
-terrain1.png::CompressedTexture2D/CompressedTexture2D::2272881858246624464::1758996237::1758998664::1::::<><><>0<>0<>9c8cbf13cd7dbae1ce872b22bc45d0a1<>res://.godot/imported/terrain1.png-70068e47616b193808f54cdacabc9265.ctex::
-terrain2.png::CompressedTexture2D/CompressedTexture2D::325158816973298743::1758996237::1758998664::1::::<><><>0<>0<>1cac87f91d4bbd18b4773cc4b3778b46<>res://.godot/imported/terrain2.png-419e32b3edf062ae2e02cfd5b1628947.ctex::
-terrain3.png::CompressedTexture2D/CompressedTexture2D::568733831737365174::1758996237::1758998664::1::::<><><>0<>0<>2293306271e47058a746e111a5c36780<>res://.godot/imported/terrain3.png-23d745d2332003878a95fbb24bb843f5.ctex::
-terrain4.png::CompressedTexture2D/CompressedTexture2D::83604778680590779::1758996237::1758998664::1::::<><><>0<>0<>db681d3c811d15ae3774c9c7fea3b39b<>res://.godot/imported/terrain4.png-5ff53f5577b003f45ef897c1266062c1.ctex::
-terrain5.png::CompressedTexture2D/CompressedTexture2D::1504869577928807020::1758996237::1758998664::1::::<><><>0<>0<>003f80e0a9153713a8ffbcbad6b4b30a<>res://.godot/imported/terrain5.png-550f318fcad0707b1316c85b3952cbeb.ctex::
-terrain6.png::CompressedTexture2D/CompressedTexture2D::1539308223812287124::1758996237::1758998664::1::::<><><>0<>0<>baf6fec563eddccbb73952cb9e8e59c5<>res://.godot/imported/terrain6.png-637be47463006960dc72bcb8ecd9979c.ctex::
-terrain7.png::CompressedTexture2D/CompressedTexture2D::6025422328795733394::1758996237::1758998664::1::::<><><>0<>0<>f6872fd2fb5b8d713ff37ce602082403<>res://.godot/imported/terrain7.png-12b975c1baaa8de50c1943a80f902308.ctex::
-terrain8.png::CompressedTexture2D/CompressedTexture2D::8748642899690893364::1758996237::1758998664::1::::<><><>0<>0<>4c9cb3b538d91133b3d5249cb1ad9462<>res://.godot/imported/terrain8.png-af8320a857a5df8ff31d1ab5dc75fb5e.ctex::
-terrain9.png::CompressedTexture2D/CompressedTexture2D::581165349044271466::1758996237::1758998664::1::::<><><>0<>0<>cecc630f59d35111a8e2f5cebcad98a9<>res://.godot/imported/terrain9.png-9366971f4e392bf0b8c504127650e9e7.ctex::
-terrain10.png::CompressedTexture2D/CompressedTexture2D::8688801295367894144::1758996237::1758998664::1::::<><><>0<>0<>046444b36629906b94eb269b7f5d9d84<>res://.godot/imported/terrain10.png-0ed917633799cf41ab101b49e82ea05b.ctex::
-terrain11.png::CompressedTexture2D/CompressedTexture2D::8869642570113814877::1758996237::1758998664::1::::<><><>0<>0<>f1e52051791002ab2c41050a57268499<>res://.godot/imported/terrain11.png-97a4459c21e6ca3762fca7a4711b044b.ctex::
-terrain12.png::CompressedTexture2D/CompressedTexture2D::3326342433421696994::1758996237::1758998664::1::::<><><>0<>0<>46f960cd8c7c21ed1380515655b48714<>res://.godot/imported/terrain12.png-80f347b5575f25ede72ec7d609479e2a.ctex::
-terrain13.png::CompressedTexture2D/CompressedTexture2D::7184460406636869328::1758996237::1758998664::1::::<><><>0<>0<>b5f20c9c5659157c6e1350dc3038778a<>res://.godot/imported/terrain13.png-4f2247ce10163c957295d9ae4727c65a.ctex::
-terrain14.png::CompressedTexture2D/CompressedTexture2D::1849613810178220950::1758996237::1758998664::1::::<><><>0<>0<>e4b60f7faa4cb238f8c142f478b99cb0<>res://.godot/imported/terrain14.png-469e787d1d69e7fb5fbc9b222c6baec8.ctex::
-terrain15.png::CompressedTexture2D/CompressedTexture2D::4426713703353630582::1758996237::1758998664::1::::<><><>0<>0<>68b99256325676aec0af901ad606ebd7<>res://.godot/imported/terrain15.png-a16170cbccc644cec574dd6c5b9d6871.ctex::
-terrain16.png::CompressedTexture2D/CompressedTexture2D::7144356649709802707::1758996237::1758998664::1::::<><><>0<>0<>7543cf1dcb3dd638495265b7b061f541<>res://.godot/imported/terrain16.png-cbd05e4b37bf6c5ad9b3165131d0bdd0.ctex::
-terrain17.png::CompressedTexture2D/CompressedTexture2D::490051368151338844::1758996237::1758998664::1::::<><><>0<>0<>a56a6f63b7a575cc5f635a2c26e245ae<>res://.godot/imported/terrain17.png-5d005f13445c33119296c585a917e2ae.ctex::
-terrain18.png::CompressedTexture2D/CompressedTexture2D::1695697129599598850::1758996237::1758998664::1::::<><><>0<>0<>71ac1d0b3dfbaf5c284eae42804e4296<>res://.godot/imported/terrain18.png-fe176399ceb39de792fa8b108a64d67b.ctex::
-terrain19.png::CompressedTexture2D/CompressedTexture2D::3609546048056374059::1758996237::1758998664::1::::<><><>0<>0<>b158a9b69d44f0cb937467f863b1ae07<>res://.godot/imported/terrain19.png-cfff6ca34d4c312e4154cf5027db34ba.ctex::
-terrain20.png::CompressedTexture2D/CompressedTexture2D::3649902320055812225::1758996237::1758998664::1::::<><><>0<>0<>084ba7238d99e5d3f908a8931382680f<>res://.godot/imported/terrain20.png-00f75c5d0a4720d2881eff552209a8da.ctex::
-waterfall.png::CompressedTexture2D/CompressedTexture2D::8760964343802219222::1758996237::1758998664::1::::<><><>0<>0<>1647e19cd1b52728b0a6fb35c7fb729e<>res://.godot/imported/waterfall.png-5b7899ece7ef1baa00a0a6c2adadb4a6.ctex::
-::res://assets/Wonderful World Tileset/RPG Maker MV & MZ Tiles/::1758998664
-A1.png::CompressedTexture2D/CompressedTexture2D::7527142462322676046::1758996237::1758998664::1::::<><><>0<>0<>78c8432331cc7a8f0af83815b95e9cf9<>res://.godot/imported/A1.png-1aed42ecc02aa08d43decb5f12e85bcf.ctex::
-A2.png::CompressedTexture2D/CompressedTexture2D::7442623158498868204::1758996237::1758998664::1::::<><><>0<>0<>b97a48c9eeede17d9ca54d9b24272283<>res://.godot/imported/A2.png-4ea64aa107ae0ba645757dd82f533e98.ctex::
-B.png::CompressedTexture2D/CompressedTexture2D::6523404456293768424::1758996237::1758998664::1::::<><><>0<>0<>38a4e124a2ed17cbc560244e01be7e9b<>res://.godot/imported/B.png-c75df9923019449db198d71d1b382e3f.ctex::
-::res://assets/Wonderful World Tileset/RPG Maker VX & Ace Tiles/::1758998664
-A1.png::CompressedTexture2D/CompressedTexture2D::8153520347816279793::1758996237::1758998664::1::::<><><>0<>0<>2430f50577c3f26f0afabd2405243102<>res://.godot/imported/A1.png-721c4791a3a91a877b1779d1f0a6c739.ctex::
-A2.png::CompressedTexture2D/CompressedTexture2D::4775677399068791334::1758996237::1758998664::1::::<><><>0<>0<>c01cd2c3168448a68a893158e7dcab8d<>res://.godot/imported/A2.png-e479135a6d5503dd31e8f0fdd442dbfc.ctex::
-B.png::CompressedTexture2D/CompressedTexture2D::4473990131264184786::1758996237::1758998664::1::::<><><>0<>0<>ca1f597302777e870fb425e36bfff022<>res://.godot/imported/B.png-83825056b6b03ba331ece51c867d2263.ctex::
+::res://assets/Wonderful World Tileset/All Tiles/::1760369757
+All the tiles.png::CompressedTexture2D/CompressedTexture2D::7642643528482883038::1758996237::1760370260::1::::<><><>0<>0<>d3a6c054266a927852b333a9de3affaa<>res://.godot/imported/All the tiles.png-cf4ce33717a942dd38eac87ffaccc2ed.ctex::
+::res://assets/Wonderful World Tileset/Game Maker Tiles/::1760369757
+liquid1.png::CompressedTexture2D/CompressedTexture2D::3126535220934230489::1758996237::1760370260::1::::<><><>0<>0<>395a2de1144c46d0b24cf4095f3444b7<>res://.godot/imported/liquid1.png-99cf8bbbedfa04a41292d82339fd4b93.ctex::
+liquid2.png::CompressedTexture2D/CompressedTexture2D::5783399774012685417::1758996237::1760370260::1::::<><><>0<>0<>4d79b1609e0ef7a0defc03f85a13f147<>res://.godot/imported/liquid2.png-30289beb47cf7d14bf87ed4220d578e5.ctex::
+liquid3.png::CompressedTexture2D/CompressedTexture2D::2311589609220637931::1758996237::1760370260::1::::<><><>0<>0<>2841ee4f84fa4247831fdee16974db38<>res://.godot/imported/liquid3.png-97283ac9942165c55d407ac7e1d3d669.ctex::
+liquid4.png::CompressedTexture2D/CompressedTexture2D::8691661731091246787::1758996237::1760370260::1::::<><><>0<>0<>6ac9048782b7c4d1a467505cff3f8fb8<>res://.godot/imported/liquid4.png-abe95d6b0cacc93257ac322e9dc95ff3.ctex::
+liquid5.png::CompressedTexture2D/CompressedTexture2D::9065120694682106546::1758996237::1760370260::1::::<><><>0<>0<>0a668a5834bc4e9525ad0debe1044bac<>res://.godot/imported/liquid5.png-c689aea1031aee970fc3903a1e08f9b4.ctex::
+liquid6.png::CompressedTexture2D/CompressedTexture2D::7567995900538967865::1758996237::1760370259::1::::<><><>0<>0<>216b0c1f4fb3744a3a5f7b268522b9c1<>res://.godot/imported/liquid6.png-c5db21233e616b7c0b7e0dd54d657557.ctex::
+liquid7.png::CompressedTexture2D/CompressedTexture2D::1727354966356410467::1758996237::1760370259::1::::<><><>0<>0<>ffe3d15152c9f0ca1acb8eab1746efa7<>res://.godot/imported/liquid7.png-ef33a98eed8f9a19d63db73f23dc464c.ctex::
+Scenery Tiles.png::CompressedTexture2D/CompressedTexture2D::8285061351691124455::1758996237::1760370259::1::::<><><>0<>0<>98a0acd192920911c7e0046cddee5e0e<>res://.godot/imported/Scenery Tiles.png-02d8cb14bb37a38265018de0bdabc643.ctex::
+terrain0.png::CompressedTexture2D/CompressedTexture2D::6165649733382020616::1758996237::1760370259::1::::<><><>0<>0<>7eb589af56bf79fe6c6124966e2fc5a1<>res://.godot/imported/terrain0.png-d42246a72b7c47c8e732bbc7fd732eaf.ctex::
+terrain1.png::CompressedTexture2D/CompressedTexture2D::2272881858246624464::1758996237::1760370259::1::::<><><>0<>0<>9c8cbf13cd7dbae1ce872b22bc45d0a1<>res://.godot/imported/terrain1.png-70068e47616b193808f54cdacabc9265.ctex::
+terrain2.png::CompressedTexture2D/CompressedTexture2D::325158816973298743::1758996237::1760370259::1::::<><><>0<>0<>1cac87f91d4bbd18b4773cc4b3778b46<>res://.godot/imported/terrain2.png-419e32b3edf062ae2e02cfd5b1628947.ctex::
+terrain3.png::CompressedTexture2D/CompressedTexture2D::568733831737365174::1758996237::1760370259::1::::<><><>0<>0<>2293306271e47058a746e111a5c36780<>res://.godot/imported/terrain3.png-23d745d2332003878a95fbb24bb843f5.ctex::
+terrain4.png::CompressedTexture2D/CompressedTexture2D::83604778680590779::1758996237::1760370259::1::::<><><>0<>0<>db681d3c811d15ae3774c9c7fea3b39b<>res://.godot/imported/terrain4.png-5ff53f5577b003f45ef897c1266062c1.ctex::
+terrain5.png::CompressedTexture2D/CompressedTexture2D::1504869577928807020::1758996237::1760370259::1::::<><><>0<>0<>003f80e0a9153713a8ffbcbad6b4b30a<>res://.godot/imported/terrain5.png-550f318fcad0707b1316c85b3952cbeb.ctex::
+terrain6.png::CompressedTexture2D/CompressedTexture2D::1539308223812287124::1758996237::1760370259::1::::<><><>0<>0<>baf6fec563eddccbb73952cb9e8e59c5<>res://.godot/imported/terrain6.png-637be47463006960dc72bcb8ecd9979c.ctex::
+terrain7.png::CompressedTexture2D/CompressedTexture2D::6025422328795733394::1758996237::1760370259::1::::<><><>0<>0<>f6872fd2fb5b8d713ff37ce602082403<>res://.godot/imported/terrain7.png-12b975c1baaa8de50c1943a80f902308.ctex::
+terrain8.png::CompressedTexture2D/CompressedTexture2D::8748642899690893364::1758996237::1760370259::1::::<><><>0<>0<>4c9cb3b538d91133b3d5249cb1ad9462<>res://.godot/imported/terrain8.png-af8320a857a5df8ff31d1ab5dc75fb5e.ctex::
+terrain9.png::CompressedTexture2D/CompressedTexture2D::581165349044271466::1758996237::1760370259::1::::<><><>0<>0<>cecc630f59d35111a8e2f5cebcad98a9<>res://.godot/imported/terrain9.png-9366971f4e392bf0b8c504127650e9e7.ctex::
+terrain10.png::CompressedTexture2D/CompressedTexture2D::8688801295367894144::1758996237::1760370259::1::::<><><>0<>0<>046444b36629906b94eb269b7f5d9d84<>res://.godot/imported/terrain10.png-0ed917633799cf41ab101b49e82ea05b.ctex::
+terrain11.png::CompressedTexture2D/CompressedTexture2D::8869642570113814877::1758996237::1760370259::1::::<><><>0<>0<>f1e52051791002ab2c41050a57268499<>res://.godot/imported/terrain11.png-97a4459c21e6ca3762fca7a4711b044b.ctex::
+terrain12.png::CompressedTexture2D/CompressedTexture2D::3326342433421696994::1758996237::1760370259::1::::<><><>0<>0<>46f960cd8c7c21ed1380515655b48714<>res://.godot/imported/terrain12.png-80f347b5575f25ede72ec7d609479e2a.ctex::
+terrain13.png::CompressedTexture2D/CompressedTexture2D::7184460406636869328::1758996237::1760370259::1::::<><><>0<>0<>b5f20c9c5659157c6e1350dc3038778a<>res://.godot/imported/terrain13.png-4f2247ce10163c957295d9ae4727c65a.ctex::
+terrain14.png::CompressedTexture2D/CompressedTexture2D::1849613810178220950::1758996237::1760370259::1::::<><><>0<>0<>e4b60f7faa4cb238f8c142f478b99cb0<>res://.godot/imported/terrain14.png-469e787d1d69e7fb5fbc9b222c6baec8.ctex::
+terrain15.png::CompressedTexture2D/CompressedTexture2D::4426713703353630582::1758996237::1760370259::1::::<><><>0<>0<>68b99256325676aec0af901ad606ebd7<>res://.godot/imported/terrain15.png-a16170cbccc644cec574dd6c5b9d6871.ctex::
+terrain16.png::CompressedTexture2D/CompressedTexture2D::7144356649709802707::1758996237::1760370259::1::::<><><>0<>0<>7543cf1dcb3dd638495265b7b061f541<>res://.godot/imported/terrain16.png-cbd05e4b37bf6c5ad9b3165131d0bdd0.ctex::
+terrain17.png::CompressedTexture2D/CompressedTexture2D::490051368151338844::1758996237::1760370259::1::::<><><>0<>0<>a56a6f63b7a575cc5f635a2c26e245ae<>res://.godot/imported/terrain17.png-5d005f13445c33119296c585a917e2ae.ctex::
+terrain18.png::CompressedTexture2D/CompressedTexture2D::1695697129599598850::1758996237::1760370259::1::::<><><>0<>0<>71ac1d0b3dfbaf5c284eae42804e4296<>res://.godot/imported/terrain18.png-fe176399ceb39de792fa8b108a64d67b.ctex::
+terrain19.png::CompressedTexture2D/CompressedTexture2D::3609546048056374059::1758996237::1760370259::1::::<><><>0<>0<>b158a9b69d44f0cb937467f863b1ae07<>res://.godot/imported/terrain19.png-cfff6ca34d4c312e4154cf5027db34ba.ctex::
+terrain20.png::CompressedTexture2D/CompressedTexture2D::3649902320055812225::1758996237::1760370259::1::::<><><>0<>0<>084ba7238d99e5d3f908a8931382680f<>res://.godot/imported/terrain20.png-00f75c5d0a4720d2881eff552209a8da.ctex::
+waterfall.png::CompressedTexture2D/CompressedTexture2D::8760964343802219222::1758996237::1760370259::1::::<><><>0<>0<>1647e19cd1b52728b0a6fb35c7fb729e<>res://.godot/imported/waterfall.png-5b7899ece7ef1baa00a0a6c2adadb4a6.ctex::
+::res://assets/Wonderful World Tileset/RPG Maker MV & MZ Tiles/::1760369757
+A1.png::CompressedTexture2D/CompressedTexture2D::7527142462322676046::1758996237::1760370259::1::::<><><>0<>0<>78c8432331cc7a8f0af83815b95e9cf9<>res://.godot/imported/A1.png-1aed42ecc02aa08d43decb5f12e85bcf.ctex::
+A2.png::CompressedTexture2D/CompressedTexture2D::7442623158498868204::1758996237::1760370259::1::::<><><>0<>0<>b97a48c9eeede17d9ca54d9b24272283<>res://.godot/imported/A2.png-4ea64aa107ae0ba645757dd82f533e98.ctex::
+B.png::CompressedTexture2D/CompressedTexture2D::6523404456293768424::1758996237::1760370259::1::::<><><>0<>0<>38a4e124a2ed17cbc560244e01be7e9b<>res://.godot/imported/B.png-c75df9923019449db198d71d1b382e3f.ctex::
+::res://assets/Wonderful World Tileset/RPG Maker VX & Ace Tiles/::1760369757
+A1.png::CompressedTexture2D/CompressedTexture2D::8153520347816279793::1758996237::1760370259::1::::<><><>0<>0<>2430f50577c3f26f0afabd2405243102<>res://.godot/imported/A1.png-721c4791a3a91a877b1779d1f0a6c739.ctex::
+A2.png::CompressedTexture2D/CompressedTexture2D::4775677399068791334::1758996237::1760370259::1::::<><><>0<>0<>c01cd2c3168448a68a893158e7dcab8d<>res://.godot/imported/A2.png-e479135a6d5503dd31e8f0fdd442dbfc.ctex::
+B.png::CompressedTexture2D/CompressedTexture2D::4473990131264184786::1758996237::1760370259::1::::<><><>0<>0<>ca1f597302777e870fb425e36bfff022<>res://.godot/imported/B.png-83825056b6b03ba331ece51c867d2263.ctex::
 ::res://scenes/::1760147590
 attack_hitbox.tscn::PackedScene::7523652312914591131::1760146954::0::1::::<><><>0<>0<><>::
 character.tscn::PackedScene/PackedScene::3651246854468160316::1759118580::0::1::::<><><>0<>0<><>::uid://drl4hi055tdp3::::res://assets/PNGs/player animation spritesheet.png
@@ -84,104 +83,10 @@ kill_zone.tscn::PackedScene::593735782797848331::1759522862::0::1::::<><><>0<>0<
 level_generator.tscn::PackedScene::7709461062338554385::1760147590::0::1::::<><><>0<>0<><>::uid://p1ptnyqigpfb::::res://scripts/level_generator.gd<>uid://dyqd8vq3ygbuu::::res://assets/All Tiles/All the tiles.png
 scorpio.tscn::PackedScene::4315103767487665912::1760147590::0::1::::<><><>0<>0<><>::uid://c0yoen1cha4bt::::res://scripts/scorpio.gd<>uid://ce1vl3ekiku4i::::res://assets/PNGs/scorpion animations spritesheet.png<>uid://bd8g4eorawbux::::res://scripts/HurtBox.gd
 world_practice.tscn::PackedScene::7063948516366448423::1760147590::0::1::::<><><>0<>0<><>::uid://crb2wvo5ji64k::::res://assets/PNGs/forest tileset.png<>uid://betaftpvmnre0::::res://scenes/hero.tscn<>uid://b2qjemwy13tbk::::res://scenes/scorpio.tscn
-::res://scripts/::1760147587
-hero.gd::GDScript::434830761843566498::1760147345::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/::1760369757
+hero.gd::GDScript::434830761843566498::1760369757::0::1::::<>CharacterBody2D<><>0<>0<><>::
 HitBox.gd::GDScript::2368445901825192892::1760147191::0::1::::HitBox<>Area2D<><>0<>0<><>::
-HurtBox.gd::GDScript::2665528002964942739::1760147455::0::1::::HurtBox<>Area2D<><>0<>0<><>::
+HurtBox.gd::GDScript::2665528002964942739::1760369757::0::1::::HurtBox<>Area2D<><>0<>0<><>::
 kill_zone.gd::GDScript::1653325338296457595::1759522806::0::1::::<>Area2D<><>0<>0<><>::
 level_generator.gd::GDScript/GDScript::1107451881768498583::1759081918::0::1::::<>Node2D<><>0<>0<><>::
-scorpio.gd::GDScript::6577965428577521881::1760147587::0::1::::<>CharacterBody2D<><>0<>0<><>::
-=======
-63f7b34db8d8cdea90c76aacccf841ec
-::res://::1760278317
-icon.svg::CompressedTexture2D::143666802296138214::1760149701::1760149944::1::::<><><>0<>0<>d1ed7856f40ed05ef49bf8323d2b13bd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile::-1::1760149701::0::1::::<><><>0<>0<><>::
-::res://assets/::1760149701
-::res://assets/All Tiles/::1760149944
-All the tiles.png::CompressedTexture2D::8877066553645923056::1760149701::1760149944::1::::<><><>0<>0<>574e85c1e1aa701af1196adb8e67da49<>res://.godot/imported/All the tiles.png-0b3a00b7e04f2464162df76f2e80caaf.ctex::
-::res://assets/PNGs/::1760149944
-animated lava spritesheet.png::CompressedTexture2D::4998275948428337511::1760149701::1760149944::1::::<><><>0<>0<>6c6db24383d1e48d7f4328529c7e78bf<>res://.godot/imported/animated lava spritesheet.png-c6490ee9c08d9ae50f78f6376bfacf3c.ctex::
-chest animation.png::CompressedTexture2D::6197678860112916984::1760149701::1760149944::1::::<><><>0<>0<>0568b5df1e3055e0c3ee099e18b10af0<>res://.godot/imported/chest animation.png-dee2ae8bda7980309f89fa465a858d00.ctex::
-compass.png::CompressedTexture2D::578469714769646498::1760149701::1760149944::1::::<><><>0<>0<>66281195ea242e7ddf3834e0cda49188<>res://.godot/imported/compass.png-13d485e10aa089608793b8f4e5a47a8c.ctex::
-desert rocks.png::CompressedTexture2D::8099380346621508477::1760149701::1760149944::1::::<><><>0<>0<>c9cc97ba76234de1c6e21caaa72a64a1<>res://.godot/imported/desert rocks.png-d5274580c4de9a93c115c5f0384d9b19.ctex::
-desert tileset.png::CompressedTexture2D::7531958970212247539::1760149701::1760149944::1::::<><><>0<>0<>1585559f7ce053c3140276f0d1f6756a<>res://.godot/imported/desert tileset.png-f234812d855be75ec13654d88285ce67.ctex::
-dog animation spritesheet.png::CompressedTexture2D::7154288020744893554::1760149701::1760149944::1::::<><><>0<>0<>1fcb93cff97e9acfef1db1ae27ed253f<>res://.godot/imported/dog animation spritesheet.png-68195899d86d95d7853c8b612e917db2.ctex::
-forest props and traps.png::CompressedTexture2D::7811772825389727736::1760149701::1760149944::1::::<><><>0<>0<>a66c5ae2e501429b5c6a1f514b2a5bf2<>res://.godot/imported/forest props and traps.png-00fb8f97fe08ad966e24bb6ccb708a05.ctex::
-forest tileset.png::CompressedTexture2D::5969795859250470512::1760149701::1760149944::1::::<><><>0<>0<>b8b1b33e142487f200352ae54e2ba4c5<>res://.godot/imported/forest tileset.png-a96d830be6f39203a1bd6b50b83f65f3.ctex::
-fox animation spritesheet.png::CompressedTexture2D::3292181819455725669::1760149701::1760149944::1::::<><><>0<>0<>907b6af97c2cf4e7ad54dd73cf43c26b<>res://.godot/imported/fox animation spritesheet.png-1efc3dbaac9742a579ddeea1c9490b07.ctex::
-lava tileset rocks.png::CompressedTexture2D::53776109435109792::1760149701::1760149944::1::::<><><>0<>0<>8231a8cb88266d21290d17cd939f6e63<>res://.godot/imported/lava tileset rocks.png-bf3d162d2fc65c05db3c47e550e9040a.ctex::
-lava tileset.png::CompressedTexture2D::6961765896523834825::1760149701::1760149944::1::::<><><>0<>0<>ebfd0fd8ee1c351c4f7652075d90e4ba<>res://.godot/imported/lava tileset.png-33930016c3280518248a269a95586e6f.ctex::
-monkey animation spritesheet.png::CompressedTexture2D::6032363841348136990::1760149701::1760149944::1::::<><><>0<>0<>f19838cf54cb4b3902fa31e9c92cd531<>res://.godot/imported/monkey animation spritesheet.png-8cc062e5d161a44ec66f09f31de06bee.ctex::
-panda animation spritesheet.png::CompressedTexture2D::8437919058022353309::1760149701::1760149944::1::::<><><>0<>0<>bf9ca301a05d891c27c9d89e637102b9<>res://.godot/imported/panda animation spritesheet.png-f293866f7db18a21dde7251f93151a88.ctex::
-player animation spritesheet.png::CompressedTexture2D::8376954301778888094::1760149701::1760149944::1::::<><><>0<>0<>c5aee19e439a7db5012f7ed0959c98ba<>res://.godot/imported/player animation spritesheet.png-f934ced4d652394a1988b00f5a030c02.ctex::
-scorpion animations spritesheet.png::CompressedTexture2D::5108566741423419202::1760149701::1760149944::1::::<><><>0<>0<>0b12c0f025a95e295397113ecf518143<>res://.godot/imported/scorpion animations spritesheet.png-2a19b06b8ec53146b2484e5a2930a8eb.ctex::
-snake animations spritesheet.png::CompressedTexture2D::5782917894811479577::1760149701::1760149944::1::::<><><>0<>0<>85dc40995ed32ed2daa8ceedc5a73202<>res://.godot/imported/snake animations spritesheet.png-a612e2fcb91ee64417becf66be5333bb.ctex::
-xp, hearts and potion.png::CompressedTexture2D::3473805681424086838::1760149701::1760149944::1::::<><><>0<>0<>609312289c6cf9e51d1a3be8d247a546<>res://.godot/imported/xp, hearts and potion.png-c4c96f37148d4979d0bc3a12cf63d321.ctex::
-::res://assets/Sprites/::1760149944
-Constructions.png::CompressedTexture2D::6383603699893585752::1760149701::1760149944::1::::<><><>0<>0<>43a8a23e756a6792baaa89959587db22<>res://.godot/imported/Constructions.png-f603f02b4630ae1428ce1a5206b37dc1.ctex::
-Free_Tilemap.png::CompressedTexture2D::1156130817449248325::1760149701::1760149944::1::::<><><>0<>0<>942404f9ebeffde06067c6a445897922<>res://.godot/imported/Free_Tilemap.png-4664216b9848f49409f3c3bbb90b4f22.ctex::
-Ground_Tiles.png::CompressedTexture2D::7411291944512585781::1760149701::1760149944::1::::<><><>0<>0<>13b961d9c86d3938e4772fc69915814b<>res://.godot/imported/Ground_Tiles.png-2b2309f178da5d798086e5aef667391d.ctex::
-Items&Tools.png::CompressedTexture2D::62687215040613941::1760149701::1760149944::1::::<><><>0<>0<>9be207d7e8320d9999c111d8a1dd894f<>res://.godot/imported/Items&Tools.png-44652fbcaf92cc7b30b211272fb935ce.ctex::
-Stones.png::CompressedTexture2D::8598538428490583921::1760149701::1760149944::1::::<><><>0<>0<>7cf6823efc995913745bc6be2d90f0f7<>res://.godot/imported/Stones.png-ee8dfc06ffcc64fdbac15e4d2d017e56.ctex::
-Trees.png::CompressedTexture2D::684199298283396090::1760149701::1760149944::1::::<><><>0<>0<>130896fe68947d1e3285312a4dbc394b<>res://.godot/imported/Trees.png-2a999d6e114a75aec329f14948592b29.ctex::
-Water_Tiles.png::CompressedTexture2D::649413225982584642::1760149701::1760149944::1::::<><><>0<>0<>f97601d56859f8998571c6b43564f963<>res://.godot/imported/Water_Tiles.png-eefc9f43e290ac1c84273ac52b98fcd6.ctex::
-::res://assets/Wonderful World Tileset/::1760149701
-Read me.txt::TextFile::-1::1760149701::0::1::::<><><>0<>0<><>::
-::res://assets/Wonderful World Tileset/All Tiles/::1760149944
-All the tiles.png::CompressedTexture2D::7642643528482883038::1760149701::1760149944::1::::<><><>0<>0<>647f1420145e92d4d4c66ffde502e48f<>res://.godot/imported/All the tiles.png-cf4ce33717a942dd38eac87ffaccc2ed.ctex::
-::res://assets/Wonderful World Tileset/Game Maker Tiles/::1760149944
-liquid1.png::CompressedTexture2D::3126535220934230489::1760149701::1760149944::1::::<><><>0<>0<>30557df5835a5b1f66f3c0a24c3d9bec<>res://.godot/imported/liquid1.png-99cf8bbbedfa04a41292d82339fd4b93.ctex::
-liquid2.png::CompressedTexture2D::5783399774012685417::1760149701::1760149944::1::::<><><>0<>0<>6a2ddc9e227a840fc18f83c2170782f4<>res://.godot/imported/liquid2.png-30289beb47cf7d14bf87ed4220d578e5.ctex::
-liquid3.png::CompressedTexture2D::2311589609220637931::1760149701::1760149944::1::::<><><>0<>0<>43ef904bbe1a7dff4a15834f1b0e3517<>res://.godot/imported/liquid3.png-97283ac9942165c55d407ac7e1d3d669.ctex::
-liquid4.png::CompressedTexture2D::8691661731091246787::1760149701::1760149944::1::::<><><>0<>0<>9d982879a244bf5e158e67036181d1df<>res://.godot/imported/liquid4.png-abe95d6b0cacc93257ac322e9dc95ff3.ctex::
-liquid5.png::CompressedTexture2D::9065120694682106546::1760149701::1760149944::1::::<><><>0<>0<>f2315adab6f83af982a7a7f6472f7db6<>res://.godot/imported/liquid5.png-c689aea1031aee970fc3903a1e08f9b4.ctex::
-liquid6.png::CompressedTexture2D::7567995900538967865::1760149701::1760149944::1::::<><><>0<>0<>06fb1867ec081ca8296eb49484814eae<>res://.godot/imported/liquid6.png-c5db21233e616b7c0b7e0dd54d657557.ctex::
-liquid7.png::CompressedTexture2D::1727354966356410467::1760149701::1760149944::1::::<><><>0<>0<>f1e6a77406a3e3b4b9386491037d75df<>res://.godot/imported/liquid7.png-ef33a98eed8f9a19d63db73f23dc464c.ctex::
-Scenery Tiles.png::CompressedTexture2D::8285061351691124455::1760149701::1760149944::1::::<><><>0<>0<>d50d18afcf312e60e2f44bef1ac1c07b<>res://.godot/imported/Scenery Tiles.png-02d8cb14bb37a38265018de0bdabc643.ctex::
-terrain0.png::CompressedTexture2D::6165649733382020616::1760149701::1760149944::1::::<><><>0<>0<>ee6c3b5690f68abf0b0ca8fdec76b77c<>res://.godot/imported/terrain0.png-d42246a72b7c47c8e732bbc7fd732eaf.ctex::
-terrain1.png::CompressedTexture2D::2272881858246624464::1760149701::1760149944::1::::<><><>0<>0<>a4bf743d3c548c9aa0be87d0ebff658a<>res://.godot/imported/terrain1.png-70068e47616b193808f54cdacabc9265.ctex::
-terrain2.png::CompressedTexture2D::325158816973298743::1760149701::1760149944::1::::<><><>0<>0<>e2184628b9dc325ebf467dbcc38864c5<>res://.godot/imported/terrain2.png-419e32b3edf062ae2e02cfd5b1628947.ctex::
-terrain3.png::CompressedTexture2D::568733831737365174::1760149701::1760149944::1::::<><><>0<>0<>0cc87bed06de58ad328b7c8818977d28<>res://.godot/imported/terrain3.png-23d745d2332003878a95fbb24bb843f5.ctex::
-terrain4.png::CompressedTexture2D::83604778680590779::1760149701::1760149944::1::::<><><>0<>0<>c6a168c50f05e50da79ca7cad4044043<>res://.godot/imported/terrain4.png-5ff53f5577b003f45ef897c1266062c1.ctex::
-terrain5.png::CompressedTexture2D::1504869577928807020::1760149701::1760149944::1::::<><><>0<>0<>fc4de239e6e4c5be3c3fe06d044e3b6c<>res://.godot/imported/terrain5.png-550f318fcad0707b1316c85b3952cbeb.ctex::
-terrain6.png::CompressedTexture2D::1539308223812287124::1760149701::1760149944::1::::<><><>0<>0<>0f5cc7e9829c1d03e31fc575ebf55e15<>res://.godot/imported/terrain6.png-637be47463006960dc72bcb8ecd9979c.ctex::
-terrain7.png::CompressedTexture2D::6025422328795733394::1760149701::1760149944::1::::<><><>0<>0<>538d9f8ef1ed9a21bf189bc7cacabf46<>res://.godot/imported/terrain7.png-12b975c1baaa8de50c1943a80f902308.ctex::
-terrain8.png::CompressedTexture2D::8748642899690893364::1760149701::1760149944::1::::<><><>0<>0<>62edb91e86584f2680d3617e420c3c47<>res://.godot/imported/terrain8.png-af8320a857a5df8ff31d1ab5dc75fb5e.ctex::
-terrain9.png::CompressedTexture2D::581165349044271466::1760149701::1760149944::1::::<><><>0<>0<>71ca8ea29defebb11f689b919fc03c7e<>res://.godot/imported/terrain9.png-9366971f4e392bf0b8c504127650e9e7.ctex::
-terrain10.png::CompressedTexture2D::8688801295367894144::1760149701::1760149944::1::::<><><>0<>0<>1c6ecd132b7c451fdffa1370e5b2ba82<>res://.godot/imported/terrain10.png-0ed917633799cf41ab101b49e82ea05b.ctex::
-terrain11.png::CompressedTexture2D::8869642570113814877::1760149701::1760149944::1::::<><><>0<>0<>bf60d3535110c5f0803090c54b3636dd<>res://.godot/imported/terrain11.png-97a4459c21e6ca3762fca7a4711b044b.ctex::
-terrain12.png::CompressedTexture2D::3326342433421696994::1760149701::1760149944::1::::<><><>0<>0<>22d0a8477c107e23cd13e2b8214abe4e<>res://.godot/imported/terrain12.png-80f347b5575f25ede72ec7d609479e2a.ctex::
-terrain13.png::CompressedTexture2D::7184460406636869328::1760149701::1760149944::1::::<><><>0<>0<>83b15e0903f85ec741c3d1a8de56b369<>res://.godot/imported/terrain13.png-4f2247ce10163c957295d9ae4727c65a.ctex::
-terrain14.png::CompressedTexture2D::1849613810178220950::1760149701::1760149944::1::::<><><>0<>0<>80586ccc70a59ce13dadcf9d6c93f15b<>res://.godot/imported/terrain14.png-469e787d1d69e7fb5fbc9b222c6baec8.ctex::
-terrain15.png::CompressedTexture2D::4426713703353630582::1760149701::1760149944::1::::<><><>0<>0<>3fff0f7b0644f94890b95ecef8646ea4<>res://.godot/imported/terrain15.png-a16170cbccc644cec574dd6c5b9d6871.ctex::
-terrain16.png::CompressedTexture2D::7144356649709802707::1760149701::1760149944::1::::<><><>0<>0<>e0c3b9cd9d56d89c0584818e7d820f92<>res://.godot/imported/terrain16.png-cbd05e4b37bf6c5ad9b3165131d0bdd0.ctex::
-terrain17.png::CompressedTexture2D::490051368151338844::1760149701::1760149944::1::::<><><>0<>0<>33464abf0e4db15c3469e4918d648308<>res://.godot/imported/terrain17.png-5d005f13445c33119296c585a917e2ae.ctex::
-terrain18.png::CompressedTexture2D::1695697129599598850::1760149701::1760149944::1::::<><><>0<>0<>adc5805c7d9120e89f1cf527ce7ea347<>res://.godot/imported/terrain18.png-fe176399ceb39de792fa8b108a64d67b.ctex::
-terrain19.png::CompressedTexture2D::3609546048056374059::1760149701::1760149944::1::::<><><>0<>0<>36bcf2a3a4a8ed744500b88c5ecb6025<>res://.godot/imported/terrain19.png-cfff6ca34d4c312e4154cf5027db34ba.ctex::
-terrain20.png::CompressedTexture2D::3649902320055812225::1760149701::1760149944::1::::<><><>0<>0<>d608874a56e2ec09265c7245151ae460<>res://.godot/imported/terrain20.png-00f75c5d0a4720d2881eff552209a8da.ctex::
-waterfall.png::CompressedTexture2D::8760964343802219222::1760149701::1760149944::1::::<><><>0<>0<>6f610dab5d32269956f3f94fb8f8acce<>res://.godot/imported/waterfall.png-5b7899ece7ef1baa00a0a6c2adadb4a6.ctex::
-::res://assets/Wonderful World Tileset/RPG Maker MV & MZ Tiles/::1760149944
-A1.png::CompressedTexture2D::7527142462322676046::1760149701::1760149944::1::::<><><>0<>0<>e42ca81af0f29018940eb033b787f25c<>res://.godot/imported/A1.png-1aed42ecc02aa08d43decb5f12e85bcf.ctex::
-A2.png::CompressedTexture2D::7442623158498868204::1760149701::1760149944::1::::<><><>0<>0<>3b40daa1fe9fed8ef5116963fefa83e9<>res://.godot/imported/A2.png-4ea64aa107ae0ba645757dd82f533e98.ctex::
-B.png::CompressedTexture2D::6523404456293768424::1760149701::1760149944::1::::<><><>0<>0<>5eecd517087f2b8df06830dbeaf0d381<>res://.godot/imported/B.png-c75df9923019449db198d71d1b382e3f.ctex::
-::res://assets/Wonderful World Tileset/RPG Maker VX & Ace Tiles/::1760149944
-A1.png::CompressedTexture2D::8153520347816279793::1760149701::1760149944::1::::<><><>0<>0<>5b6aae4dacffcdcd34ddd653797e39d5<>res://.godot/imported/A1.png-721c4791a3a91a877b1779d1f0a6c739.ctex::
-A2.png::CompressedTexture2D::4775677399068791334::1760149701::1760149944::1::::<><><>0<>0<>0b80daf1af1d344caa172117bfe23fc9<>res://.godot/imported/A2.png-e479135a6d5503dd31e8f0fdd442dbfc.ctex::
-B.png::CompressedTexture2D::4473990131264184786::1760149701::1760149944::1::::<><><>0<>0<>be651e738206ac7ff577ec1d868a181f<>res://.godot/imported/B.png-83825056b6b03ba331ece51c867d2263.ctex::
-::res://scenes/::1760278286
-attack_hitbox.tscn::PackedScene::7523652312914591131::1760149701::0::1::::<><><>0<>0<><>::
-character.tscn::PackedScene::3651246854468160316::1760149701::0::1::::<><><>0<>0<><>::uid://drl4hi055tdp3::::res://assets/PNGs/player animation spritesheet.png
-hero.tscn::PackedScene::2706409186628320493::1760278172::0::1::::<><><>0<>0<><>::uid://drl4hi055tdp3::::res://assets/PNGs/player animation spritesheet.png<>uid://ggvumty7dc7c::::res://scripts/hero.gd<>uid://80j7toaf48wu::::res://scripts/HitBox.gd
-hurt_zone.tscn::PackedScene::2701210290017158700::1760149701::0::1::::<><><>0<>0<><>::
-kill_zone.tscn::PackedScene::593735782797848331::1760149701::0::1::::<><><>0<>0<><>::
-level_generator.tscn::PackedScene::7709461062338554385::1760149701::0::1::::<><><>0<>0<><>::uid://p1ptnyqigpfb::::res://scripts/level_generator.gd<>uid://dyqd8vq3ygbuu::::res://assets/All Tiles/All the tiles.png
-scorpio.tscn::PackedScene::4315103767487665912::1760209465::0::1::::<><><>0<>0<><>::uid://c0yoen1cha4bt::::res://scripts/scorpio.gd<>uid://ce1vl3ekiku4i::::res://assets/PNGs/scorpion animations spritesheet.png<>uid://bd8g4eorawbux::::res://scripts/HurtBox.gd
-world_practice.tscn::PackedScene::7063948516366448423::1760278286::0::1::::<><><>0<>0<><>::uid://crb2wvo5ji64k::::res://assets/PNGs/forest tileset.png<>uid://betaftpvmnre0::::res://scenes/hero.tscn<>uid://b2qjemwy13tbk::::res://scenes/scorpio.tscn
-::res://scripts/::1760278172
-hero.gd::GDScript::434830761843566498::1760278172::0::1::::<>CharacterBody2D<><>0<>0<><>::
-HitBox.gd::GDScript::2368445901825192892::1760152023::0::1::::HitBox<>Area2D<><>0<>0<><>::
-HurtBox.gd::GDScript::2665528002964942739::1760278084::0::1::::HurtBox<>Area2D<><>0<>0<><>::
-kill_zone.gd::GDScript::1653325338296457595::1760149701::0::1::::<>Area2D<><>0<>0<><>::
-level_generator.gd::GDScript::1107451881768498583::1760149701::0::1::::<>Node2D<><>0<>0<><>::
-scorpio.gd::GDScript::6577965428577521881::1760278084::0::1::::<>CharacterBody2D<><>0<>0<><>::
->>>>>>> 4cd38a41e5bc2de45fcd234d88e242a2e44cc58f
+scorpio.gd::GDScript::6577965428577521881::1760369757::0::1::::<>CharacterBody2D<><>0<>0<><>::
