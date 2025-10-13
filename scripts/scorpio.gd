@@ -4,12 +4,16 @@ extends CharacterBody2D
 @export var patrol_distance: float = 100.0  # how far it moves from start
 var start_position: Vector2
 var direction: int = 1   # 1 = right, -1 = left
+var hitable_cooldown: float = .5
+var can_hit = true
 
 @onready var anim: AnimatedSprite2D = $ScorpioAnim
+@onready var hurtbox: HurtBox = $HurtBox
 
 func _ready() -> void:
 	start_position = global_position
 	anim.play("left_walking")
+	
 
 func _physics_process(delta: float) -> void:
 	# Move horizontally
@@ -25,5 +29,8 @@ func _physics_process(delta: float) -> void:
 
 func take_damage(amount: int) -> void:
 	anim.play("left_take_dmg")
+	hitable_cooldown = false
+	#await anim.animation_finished
+	hitable_cooldown = true
 	
 	print("This swung bro!")
