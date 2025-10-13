@@ -13,7 +13,8 @@ signal enemy_hit(enemy)
 
 func _ready() -> void:
 	colshape.disabled = true
-	
+	anim.connect("frame_changed", Callable(self, "_on_frame_changed"))
+	anim.connect("frame_finished", Callable(self, "_on_frame_finished"))
 
 func _physics_process(delta: float) -> void:
 	
@@ -47,17 +48,22 @@ func _physics_process(delta: float) -> void:
 func attack() -> void:
 	is_attacking = true
 	can_attack = false 
-	colshape.disabled = false
 	anim.play("left_sword_swing")
+	await get_tree().create_timer(0.2).timeout
+	colshape.disabled = false
+	await get_tree().create_timer(0.2).timeout
+	colshape.disabled = true
 	
 	#velocity = Vector2.ZERO
 	await anim.animation_finished
 	is_attacking = false
 	print("Attack finished!")
-	colshape.disabled = true
 	await get_tree().create_timer(ATTACK_COOLDOWN).timeout
 	can_attack = true
 
-
 func _on_attack_hitbox_area_entered(area: Area2D) -> void:
 	print("we hit the eny")
+	
+func _on_frame_changed():
+	pass
+	#if anim.animation == ""
