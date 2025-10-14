@@ -61,6 +61,12 @@ func attack() -> void:
 	await get_tree().create_timer(ATTACK_COOLDOWN).timeout
 	can_attack = true
 
+func move() -> void:
+	var direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	velocity = direction * SPEED
+	move_and_slide()
+	
+
 func _on_attack_hitbox_area_entered(area: Area2D) -> void:
 	print("we hit the eny")
 	

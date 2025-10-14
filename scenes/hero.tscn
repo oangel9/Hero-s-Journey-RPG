@@ -1,8 +1,11 @@
-[gd_scene load_steps=92 format=3 uid="uid://betaftpvmnre0"]
+[gd_scene load_steps=95 format=3 uid="uid://betaftpvmnre0"]
 
 [ext_resource type="Texture2D" uid="uid://drl4hi055tdp3" path="res://assets/PNGs/player animation spritesheet.png" id="1_3uyx6"]
-[ext_resource type="Script" uid="uid://ggvumty7dc7c" path="res://scripts/hero.gd" id="1_yvbpl"]
+[ext_resource type="Script" uid="uid://rek27vk36omh" path="res://scripts/player.gd" id="1_06baw"]
 [ext_resource type="Script" uid="uid://80j7toaf48wu" path="res://scripts/HitBox.gd" id="3_06baw"]
+[ext_resource type="Script" uid="uid://dqc1nl26uaftn" path="res://scripts/state machine scripts/StateMachine.gd" id="4_w7pyx"]
+[ext_resource type="Script" uid="uid://1rht1gfwls1o" path="res://scripts/idle.gd" id="5_y2sko"]
+[ext_resource type="Script" uid="uid://bxy2oll0x7gf6" path="res://scripts/state machine scripts/move.gd" id="6_y2sko"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mv13s"]
 radius = 4.0
@@ -696,7 +699,7 @@ height = 12.0
 
 [node name="Hero" type="CharacterBody2D" groups=["Player"]]
 collision_mask = 128
-script = ExtResource("1_yvbpl")
+script = ExtResource("1_06baw")
 
 [node name="HitBox" type="Area2D" parent="."]
 script = ExtResource("3_06baw")
@@ -724,3 +727,16 @@ shape = SubResource("CapsuleShape2D_3uyx6")
 limit_smoothed = true
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
+
+[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
+script = ExtResource("4_w7pyx")
+initial_state = NodePath("Idle")
+metadata/_custom_type_script = "uid://dqc1nl26uaftn"
+
+[node name="Idle" type="Node" parent="StateMachine"]
+script = ExtResource("5_y2sko")
+metadata/_custom_type_script = "uid://s7fj0e7q26xy"
+
+[node name="Move" type="Node" parent="StateMachine"]
+script = ExtResource("6_y2sko")
+metadata/_custom_type_script = "uid://s7fj0e7q26xy"

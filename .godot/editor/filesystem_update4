@@ -1,7 +1,9 @@
-res://scripts/hero.gd
-res://scripts/HurtBox.gd
-res://scripts/scorpio.gd
-res://scenes/level_generator.tscn
-res://scenes/hero.tscn
-res://scenes/scorpio.tscn
 res://scenes/world_practice.tscn
+res://scripts/State.gd
+res://scripts/StateMachine.gd
+res://scenes/hero.tscn
+res://scripts/hero.gd
+res://scripts/player.gd
+res://scenes/idle.gd
+res://scripts/state machine scripts/move.gd
+res://scripts/idle.gd
