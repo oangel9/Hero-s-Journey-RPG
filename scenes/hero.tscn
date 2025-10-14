@@ -1,11 +1,12 @@
-[gd_scene load_steps=95 format=3 uid="uid://betaftpvmnre0"]
+[gd_scene load_steps=96 format=3 uid="uid://betaftpvmnre0"]
 
 [ext_resource type="Texture2D" uid="uid://drl4hi055tdp3" path="res://assets/PNGs/player animation spritesheet.png" id="1_3uyx6"]
 [ext_resource type="Script" uid="uid://rek27vk36omh" path="res://scripts/player.gd" id="1_06baw"]
 [ext_resource type="Script" uid="uid://80j7toaf48wu" path="res://scripts/HitBox.gd" id="3_06baw"]
 [ext_resource type="Script" uid="uid://dqc1nl26uaftn" path="res://scripts/state machine scripts/StateMachine.gd" id="4_w7pyx"]
-[ext_resource type="Script" uid="uid://1rht1gfwls1o" path="res://scripts/idle.gd" id="5_y2sko"]
+[ext_resource type="Script" uid="uid://1rht1gfwls1o" path="res://scripts/state machine scripts/idle.gd" id="5_y2sko"]
 [ext_resource type="Script" uid="uid://bxy2oll0x7gf6" path="res://scripts/state machine scripts/move.gd" id="6_y2sko"]
+[ext_resource type="Script" uid="uid://ce1bi13ofqs1r" path="res://scripts/state machine scripts/attack.gd" id="7_mo806"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mv13s"]
 radius = 4.0
@@ -739,4 +740,8 @@ metadata/_custom_type_script = "uid://s7fj0e7q26xy"
 
 [node name="Move" type="Node" parent="StateMachine"]
 script = ExtResource("6_y2sko")
+metadata/_custom_type_script = "uid://s7fj0e7q26xy"
+
+[node name="Attack" type="Node" parent="StateMachine"]
+script = ExtResource("7_mo806")
 metadata/_custom_type_script = "uid://s7fj0e7q26xy"

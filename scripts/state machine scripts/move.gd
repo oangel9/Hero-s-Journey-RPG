@@ -7,8 +7,11 @@ func _physics_process(delta: float) -> void:
 	
 	if player.input_direction == Vector2.ZERO:
 		state_machine.change_state("idle")
+	elif Input.is_action_just_pressed("attack") and player.can_attack:
+		state_machine.change_state("attack")
 
 	if abs(player.input_direction.x) > 0:
+		#print("you are here")
 		player.anim.play("walking_left")
 		player.anim.scale.x = -1 if player.input_direction.x > 0 else 1
 	# Vertical movement
@@ -18,5 +21,5 @@ func _physics_process(delta: float) -> void:
 		else:
 			player.anim.play("walking_up")
 			
-	player.move(120,20,delta)
+	player.move(90,20,delta)
 	player.move_and_slide()

@@ -1,9 +1,7 @@
-res://scenes/world_practice.tscn
-res://scripts/State.gd
-res://scripts/StateMachine.gd
 res://scenes/hero.tscn
-res://scripts/hero.gd
-res://scripts/player.gd
-res://scenes/idle.gd
+res://scripts/scorpio.gd
+res://scenes/world_practice.tscn
 res://scripts/state machine scripts/move.gd
-res://scripts/idle.gd
+res://scenes/scorpio.tscn
+res://scripts/state machine scripts/attack.gd
+res://scripts/player.gd
