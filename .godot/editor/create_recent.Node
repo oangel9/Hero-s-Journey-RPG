@@ -1,3 +1,10 @@
+Panel
+HBoxContainer
+TextureRect
+VBoxContainer
+MarginContainer
+Control
+CanvasLayer
 Container
 State
 StateMachine
@@ -6,6 +13,3 @@ HurtBox
 HitBox
 Area2D
 TileMapLayer
-AnimatedSprite2D
-CharacterBody2D
-Camera2D

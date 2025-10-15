@@ -5,3 +5,8 @@ res://scripts/state machine scripts/move.gd
 res://scenes/scorpio.tscn
 res://scripts/state machine scripts/attack.gd
 res://scripts/player.gd
+res://scripts/state machine scripts/idle.gd
+res://ui.tscn
+res://assets/PNGs/cutting-practice/heart.tres
+res://assets/PNGs/cutting-practice/hearts.tres
+res://scripts/ui scripts/HeartManager.gd

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://do3bm84kx0k1f"]
+
+[ext_resource type="Texture2D" uid="uid://bpq0cpjuty8ac" path="res://assets/PNGs/xp, hearts and potion.png" id="1_vw07h"]
+
+[resource]
+atlas = ExtResource("1_vw07h")
+region = Rect2(105.56995, 17.395546, 25.84024, 25.623096)

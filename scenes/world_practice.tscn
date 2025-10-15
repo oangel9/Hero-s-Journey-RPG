@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=4 uid="uid://c7v3g2he54g5l"]
+[gd_scene load_steps=9 format=4 uid="uid://c7v3g2he54g5l"]
 
 [ext_resource type="Texture2D" uid="uid://crb2wvo5ji64k" path="res://assets/PNGs/forest tileset.png" id="1_86al8"]
 [ext_resource type="PackedScene" uid="uid://betaftpvmnre0" path="res://scenes/hero.tscn" id="2_4as0u"]
 [ext_resource type="PackedScene" uid="uid://b2qjemwy13tbk" path="res://scenes/scorpio.tscn" id="3_4as0u"]
+[ext_resource type="PackedScene" uid="uid://d1s55o5xoyn5h" path="res://ui.tscn" id="4_mxl0a"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4as0u"]
 texture = ExtResource("1_86al8")
@@ -206,3 +207,5 @@ tile_set = SubResource("TileSet_v6d68")
 
 [node name="Scorpio" parent="." instance=ExtResource("3_4as0u")]
 position = Vector2(-98, -1)
+
+[node name="UI" parent="." instance=ExtResource("4_mxl0a")]

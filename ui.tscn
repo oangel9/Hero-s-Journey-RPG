@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1s55o5xoyn5h"]
+
+[ext_resource type="Texture2D" uid="uid://do3bm84kx0k1f" path="res://assets/PNGs/cutting-practice/hearts.tres" id="1_fyqef"]
+[ext_resource type="Script" uid="uid://oy7q7nguldpn" path="res://scripts/ui scripts/HeartManager.gd" id="1_m6e0p"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TopLeftUI" type="Control" parent="Control"]
+custom_minimum_size = Vector2(500, 100)
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 100.0
+script = ExtResource("1_m6e0p")
+heart_full = ExtResource("1_fyqef")
+
+[node name="HealthMarginContainer" type="MarginContainer" parent="Control/TopLeftUI"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 10
+
+[node name="HeartsContainer" type="HBoxContainer" parent="Control/TopLeftUI/HealthMarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = -20
+
+[node name="Heart1" type="TextureRect" parent="Control/TopLeftUI/HealthMarginContainer/HeartsContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1_fyqef")
+stretch_mode = 2
+
+[node name="Heart2" type="TextureRect" parent="Control/TopLeftUI/HealthMarginContainer/HeartsContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1_fyqef")
+stretch_mode = 2
+
+[node name="Heart3" type="TextureRect" parent="Control/TopLeftUI/HealthMarginContainer/HeartsContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1_fyqef")
+stretch_mode = 2
+
+[node name="Heart4" type="TextureRect" parent="Control/TopLeftUI/HealthMarginContainer/HeartsContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1_fyqef")
+stretch_mode = 2
