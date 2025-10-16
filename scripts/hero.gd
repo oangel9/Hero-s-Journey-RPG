@@ -3,7 +3,7 @@ extends CharacterBody2D
 @onready var anim = $AnimatedSprite2D
 @onready var colshape = $HitBox/CollisionShape2D
 const SPEED = 60.0
-const ATTACK_COOLDOWN: float = 0.4
+const ATTACK_COOLDOWN: float = 0.3
 var is_attacking: bool = false
 var can_attack:  bool = true
 

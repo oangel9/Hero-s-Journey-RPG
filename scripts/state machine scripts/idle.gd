@@ -2,10 +2,18 @@ extends State
 
 @onready var player: CharacterBody2D = get_parent().get_parent()
 
-func _physics_process(delta: float) -> void:
+func enter() -> void:
+	if player and player.anim:
+		player.anim.play("idle")
+		player.velocity = Vector2.ZERO
+
+func physics_update(delta: float) -> void:
+	# Check if the player gives movement input
 	if player.input_direction != Vector2.ZERO:
 		state_machine.change_state("move")
+	elif Input.is_action_just_pressed("attack") and player.can_attack:
+		state_machine.change_state("attack")
 	
-	player.anim.play("idle")
-	player.move(0,15,delta)
+	# Apply gravity or standing movement if needed
+	player.move(0, 15, delta)
 	player.move_and_slide()

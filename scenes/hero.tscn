@@ -9,7 +9,7 @@
 [ext_resource type="Script" uid="uid://ce1bi13ofqs1r" path="res://scripts/state machine scripts/attack.gd" id="7_mo806"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mv13s"]
-radius = 4.0
+radius = 5.000001
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_smq3e"]
 atlas = ExtResource("1_3uyx6")
@@ -583,7 +583,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"left_sword_swing",
-"speed": 8.0
+"speed": 11.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -708,6 +708,7 @@ metadata/_custom_type_script = "uid://80j7toaf48wu"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
 position = Vector2(-15, 5)
+rotation = -4.787509
 shape = SubResource("CircleShape2D_mv13s")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -716,7 +717,7 @@ scale = Vector2(1.00494, 0.937227)
 sprite_frames = SubResource("SpriteFrames_0lw5n")
 animation = &"left_sword_swing"
 autoplay = "idle"
-frame = 3
+frame = 4
 frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

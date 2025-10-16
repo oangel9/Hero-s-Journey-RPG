@@ -52,3 +52,7 @@ func _pick_new_target() -> void:
 	target_position = start_position + offset
 	# Debug:
 	# print("New target:", target_position)
+
+func take_damage(damage_amount: int) -> void:
+	print("yessir!")
+	anim.play("left_take_dmg")
