@@ -1,4 +1,4 @@
-[gd_scene load_steps=96 format=3 uid="uid://betaftpvmnre0"]
+[gd_scene load_steps=97 format=3 uid="uid://betaftpvmnre0"]
 
 [ext_resource type="Texture2D" uid="uid://drl4hi055tdp3" path="res://assets/PNGs/player animation spritesheet.png" id="1_3uyx6"]
 [ext_resource type="Script" uid="uid://rek27vk36omh" path="res://scripts/player.gd" id="1_06baw"]
@@ -10,6 +10,10 @@
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mv13s"]
 radius = 5.000001
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_mo806"]
+a = Vector2(-6.718071, -2.2062426)
+b = Vector2(-50.447216, 19.901718)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_smq3e"]
 atlas = ExtResource("1_3uyx6")
@@ -711,14 +715,22 @@ position = Vector2(-15, 5)
 rotation = -4.787509
 shape = SubResource("CircleShape2D_mv13s")
 
+[node name="PistolHitBox" type="Area2D" parent="."]
+script = ExtResource("3_06baw")
+metadata/_custom_type_script = "uid://80j7toaf48wu"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PistolHitBox"]
+position = Vector2(-15, 5)
+rotation = -5.815095
+shape = SubResource("SegmentShape2D_mo806")
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, 1)
 scale = Vector2(1.00494, 0.937227)
 sprite_frames = SubResource("SpriteFrames_0lw5n")
-animation = &"left_sword_swing"
+animation = &"left_pistol_shot"
 autoplay = "idle"
-frame = 4
-frame_progress = 1.0
+frame_progress = 0.7850189
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 1)
