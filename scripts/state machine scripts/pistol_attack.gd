@@ -5,7 +5,7 @@ extends State
 func enter() -> void:
 	player.is_attacking = true
 	player.can_attack = false
-	player.anim.play("left_sword_swing")
+	player.anim.play("pistol_left_attack")
 	print("swung!")
 	# Start attack coroutine
 	attack()
@@ -16,10 +16,10 @@ func physics_update(delta: float) -> void:
 
 func attack() -> void:
 	await get_tree().create_timer(0.2).timeout
-	player.colshape.disabled = false  # Enable hitbox
+	player.pistol_colshape.disabled = false  # Enable hitbox
 
 	await get_tree().create_timer(0.2).timeout
-	player.colshape.disabled = true   # Disable hitbox again
+	player.pistol_colshape.disabled = true   # Disable hitbox again
 
 	await player.anim.animation_finished
 	player.is_attacking = false

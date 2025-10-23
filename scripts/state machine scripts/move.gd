@@ -20,6 +20,8 @@ func physics_update(delta: float) -> void:
 		state_machine.change_state("idle")
 	elif Input.is_action_just_pressed("attack") and player.can_attack:
 		state_machine.change_state("attack")
+	elif Input.is_action_just_pressed("pistol_attack") and player.can_attack:
+		state_machine.change_state("pistol_attack")
 
 	# Optional: if player changes direction mid-move, recheck anim
 	if abs(player.input_direction.x) > 0:

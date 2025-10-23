@@ -15,11 +15,14 @@ func physics_update(delta: float) -> void:
 	pass
 
 func attack() -> void:
+	# Take player's current direction
+	position_hitbox_collider(player.input_direction)
+	
 	await get_tree().create_timer(0.2).timeout
-	player.colshape.disabled = false  # Enable hitbox
+	player.sword_colshape.disabled = false  # Enable hitbox
 
 	await get_tree().create_timer(0.2).timeout
-	player.colshape.disabled = true   # Disable hitbox again
+	player.sword_colshape.disabled = true   # Disable hitbox again
 
 	await player.anim.animation_finished
 	player.is_attacking = false
@@ -27,6 +30,16 @@ func attack() -> void:
 
 	await get_tree().create_timer(player.ATTACK_COOLDOWN).timeout
 	player.can_attack = true
-
 	# Go back to idle automatically
 	state_machine.change_state("idle")
+
+
+func position_hitbox_collider(direction: Vector2):
+	if direction == Vector2.LEFT:
+		player.sword_colshape.position = Vector2(-15,5)
+	elif direction == Vector2.RIGHT:
+		player.sword_colshape.position = Vector2(15,5)
+	elif direction == Vector2.DOWN:
+		player.sword_colshape.position = Vector2(0,15)
+	elif direction == Vector2.UP:
+		player.sword_colshape.position = Vector2(0,-15)
