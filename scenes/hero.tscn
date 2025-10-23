@@ -1,4 +1,4 @@
-[gd_scene load_steps=97 format=3 uid="uid://betaftpvmnre0"]
+[gd_scene load_steps=98 format=3 uid="uid://betaftpvmnre0"]
 
 [ext_resource type="Texture2D" uid="uid://drl4hi055tdp3" path="res://assets/PNGs/player animation spritesheet.png" id="1_3uyx6"]
 [ext_resource type="Script" uid="uid://rek27vk36omh" path="res://scripts/player.gd" id="1_06baw"]
@@ -7,6 +7,7 @@
 [ext_resource type="Script" uid="uid://1rht1gfwls1o" path="res://scripts/state machine scripts/idle.gd" id="5_y2sko"]
 [ext_resource type="Script" uid="uid://bxy2oll0x7gf6" path="res://scripts/state machine scripts/move.gd" id="6_y2sko"]
 [ext_resource type="Script" uid="uid://ce1bi13ofqs1r" path="res://scripts/state machine scripts/attack.gd" id="7_mo806"]
+[ext_resource type="Script" uid="uid://cmxo3og30hf3c" path="res://scripts/state machine scripts/pistol_attack.gd" id="8_n40cg"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mv13s"]
 radius = 5.000001
@@ -706,11 +707,11 @@ height = 12.0
 collision_mask = 128
 script = ExtResource("1_06baw")
 
-[node name="HitBox" type="Area2D" parent="."]
+[node name="SwordHitBox" type="Area2D" parent="."]
 script = ExtResource("3_06baw")
 metadata/_custom_type_script = "uid://80j7toaf48wu"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SwordHitBox"]
 position = Vector2(-15, 5)
 rotation = -4.787509
 shape = SubResource("CircleShape2D_mv13s")
@@ -730,7 +731,7 @@ scale = Vector2(1.00494, 0.937227)
 sprite_frames = SubResource("SpriteFrames_0lw5n")
 animation = &"left_pistol_shot"
 autoplay = "idle"
-frame_progress = 0.7850189
+frame_progress = 0.5714195
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 1)
@@ -757,4 +758,8 @@ metadata/_custom_type_script = "uid://s7fj0e7q26xy"
 
 [node name="Attack" type="Node" parent="StateMachine"]
 script = ExtResource("7_mo806")
+metadata/_custom_type_script = "uid://s7fj0e7q26xy"
+
+[node name="PistolAttack" type="Node" parent="StateMachine"]
+script = ExtResource("8_n40cg")
 metadata/_custom_type_script = "uid://s7fj0e7q26xy"

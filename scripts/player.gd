@@ -2,7 +2,7 @@ extends CharacterBody2D
 class_name Player
 
 @onready var anim: AnimatedSprite2D = $AnimatedSprite2D
-@onready var colshape: CollisionShape2D = $HitBox/CollisionShape2D
+@onready var colshape: CollisionShape2D = $SwordHitBox/CollisionShape2D
 var input_direction = Vector2.ZERO
 const SPEED = 60.0
 const ATTACK_COOLDOWN: float = 0.2

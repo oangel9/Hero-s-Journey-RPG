@@ -1,3 +1,4 @@
+State
 Panel
 HBoxContainer
 TextureRect
@@ -6,10 +7,8 @@ MarginContainer
 Control
 CanvasLayer
 Container
-State
 StateMachine
 CollisionShape2D
 HurtBox
 HitBox
 Area2D
-TileMapLayer
