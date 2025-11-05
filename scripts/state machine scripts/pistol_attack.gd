@@ -15,6 +15,8 @@ func physics_update(delta: float) -> void:
 	pass
 
 func attack() -> void:
+	print(player.facing_direction)
+	sword_hitbox_collider(player.facing_direction)
 	await get_tree().create_timer(0.2).timeout
 	player.pistol_colshape.disabled = false  # Enable hitbox
 
@@ -30,3 +32,18 @@ func attack() -> void:
 
 	# Go back to idle automatically
 	state_machine.change_state("idle")
+	
+func sword_hitbox_collider(direction: Vector2) -> void:
+	match direction:
+		Vector2.LEFT:
+			player.sword_colshape.position = Vector2(-10, 5)
+			player.pistol_colshape.rotation_degrees = 27
+		Vector2.RIGHT:
+			player.pistol_colshape.position = Vector2(10, -55)
+			player.pistol_colshape.rotation_degrees = -27
+		Vector2.UP:
+			#player.pistol_colshape.position = Vector2(0, -15)
+			player.pistol_colshape.rotation_degrees = 0
+		Vector2.DOWN:
+			#player.pistol_colshape.position = Vector2(0, 15)
+			player.pistol_colshape.rotation_degrees = -70

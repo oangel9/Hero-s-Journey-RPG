@@ -1,4 +1,4 @@
-[gd_scene load_steps=98 format=3 uid="uid://betaftpvmnre0"]
+[gd_scene load_steps=103 format=3 uid="uid://betaftpvmnre0"]
 
 [ext_resource type="Texture2D" uid="uid://drl4hi055tdp3" path="res://assets/PNGs/player animation spritesheet.png" id="1_3uyx6"]
 [ext_resource type="Script" uid="uid://rek27vk36omh" path="res://scripts/player.gd" id="1_06baw"]
@@ -14,7 +14,7 @@ radius = 5.0
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_mo806"]
 a = Vector2(-6.71807, -2.20624)
-b = Vector2(-106.67, 48.3262)
+b = Vector2(-120.01407, -2.371643)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_smq3e"]
 atlas = ExtResource("1_3uyx6")
@@ -87,6 +87,26 @@ region = Rect2(450, 200, 50, 50)
 [sub_resource type="AtlasTexture" id="AtlasTexture_qfkdi"]
 atlas = ExtResource("1_3uyx6")
 region = Rect2(0, 250, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n40cg"]
+atlas = ExtResource("1_3uyx6")
+region = Rect2(350, 150, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_txblw"]
+atlas = ExtResource("1_3uyx6")
+region = Rect2(400, 150, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5qna"]
+atlas = ExtResource("1_3uyx6")
+region = Rect2(450, 150, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d6xj2"]
+atlas = ExtResource("1_3uyx6")
+region = Rect2(0, 200, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sryfu"]
+atlas = ExtResource("1_3uyx6")
+region = Rect2(50, 200, 50, 50)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lqk3k"]
 atlas = ExtResource("1_3uyx6")
@@ -434,6 +454,26 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_n40cg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_txblw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5qna")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d6xj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sryfu")
+}],
+"loop": false,
+"name": &"down_sword_swing",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_lqk3k")
 }, {
 "duration": 1.0,
@@ -570,6 +610,11 @@ animations = [{
 "name": &"left_sword_swing",
 "speed": 11.0
 }, {
+"frames": [],
+"loop": true,
+"name": &"new_animation_1",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sougf")
@@ -642,7 +687,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"up_sword_swing",
-"speed": 5.0
+"speed": 11.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -658,7 +703,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_7qyni")
 }],
 "loop": false,
-"name": &"walking_down",
+"name": &"walk_down",
 "speed": 5.0
 }, {
 "frames": [{
@@ -678,7 +723,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_y2sko")
 }],
 "loop": false,
-"name": &"walking_left",
+"name": &"walk_left",
 "speed": 7.0
 }, {
 "frames": [{
@@ -695,7 +740,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_7eonc")
 }],
 "loop": false,
-"name": &"walking_up",
+"name": &"walk_up",
 "speed": 5.0
 }]
 
@@ -708,32 +753,32 @@ collision_mask = 128
 script = ExtResource("1_06baw")
 
 [node name="SwordHitBox" type="Area2D" parent="."]
+position = Vector2(-1, 0)
 script = ExtResource("3_06baw")
 metadata/_custom_type_script = "uid://80j7toaf48wu"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="SwordHitBox"]
-position = Vector2(-15, 5)
-rotation = -4.78751
+z_index = 1
 shape = SubResource("CircleShape2D_mv13s")
 
 [node name="PistolHitBox" type="Area2D" parent="."]
+visible = false
 script = ExtResource("3_06baw")
 metadata/_custom_type_script = "uid://80j7toaf48wu"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PistolHitBox"]
-position = Vector2(-15, 5)
-rotation = -5.81509
 shape = SubResource("SegmentShape2D_mo806")
+disabled = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, 1)
 scale = Vector2(1.00494, 0.937227)
 sprite_frames = SubResource("SpriteFrames_0lw5n")
-animation = &"pistol_right_attack"
+animation = &"up_sword_swing"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-2, 1)
+visible = false
+position = Vector2(-1, 0)
 rotation = -3.14159
 shape = SubResource("CapsuleShape2D_3uyx6")
 

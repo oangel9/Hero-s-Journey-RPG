@@ -13,9 +13,9 @@ func physics_update(delta: float) -> void:
 		state_machine.change_state("move")
 	elif Input.is_action_just_pressed("attack") and player.can_attack:
 		state_machine.change_state("attack")
+		return
 	elif Input.is_action_just_pressed("pistol_attack") and player.can_attack:
-		state_machine.change_state("pistol_attack")	
+		state_machine.change_state("pistol_attack")
+		return
 	
 	# Apply gravity or standing movement if needed
-	player.move(0, 15, delta)
-	player.move_and_slide()
