@@ -60,11 +60,11 @@ func sword_animation_player() -> void:
 		Vector2.LEFT:
 			#review, but for now it works... 
 			player.anim.flip_h = false
-			player.anim.play("left_sword_swing")
+			player.anim.play("left_sword_attack")
 		Vector2.RIGHT:
 			#player.anim.flip_h = false
-			player.anim.play("left_sword_swing")
+			player.anim.play("left_sword_attack")
 		Vector2.UP:
-			player.anim.play("up_sword_swing")
+			player.anim.play("up_sword_attack")
 		Vector2.DOWN:
-			player.anim.play("down_sword_swing")
+			player.anim.play("down_sword_attack")

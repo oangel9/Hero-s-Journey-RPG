@@ -5,7 +5,7 @@ extends State
 func enter() -> void:
 	player.is_attacking = true
 	player.can_attack = false
-	player.anim.play("pistol_left_attack")
+	pistol_animation_player()
 	print("swung!")
 	# Start attack coroutine
 	attack()
@@ -16,7 +16,7 @@ func physics_update(delta: float) -> void:
 
 func attack() -> void:
 	print(player.facing_direction)
-	sword_hitbox_collider(player.facing_direction)
+	pistol_hitbox_collider(player.facing_direction)
 	await get_tree().create_timer(0.2).timeout
 	player.pistol_colshape.disabled = false  # Enable hitbox
 
@@ -33,17 +33,31 @@ func attack() -> void:
 	# Go back to idle automatically
 	state_machine.change_state("idle")
 	
-func sword_hitbox_collider(direction: Vector2) -> void:
+func pistol_hitbox_collider(direction: Vector2) -> void:
 	match direction:
 		Vector2.LEFT:
-			player.sword_colshape.position = Vector2(-10, 5)
-			player.pistol_colshape.rotation_degrees = 27
+			player.sword_colshape.position = Vector2(0,0)
+			player.pistol_colshape.rotation_degrees = 360
 		Vector2.RIGHT:
-			player.pistol_colshape.position = Vector2(10, -55)
-			player.pistol_colshape.rotation_degrees = -27
+			player.pistol_colshape.position = Vector2(0,0)
+			player.pistol_colshape.rotation_degrees = 180
 		Vector2.UP:
-			#player.pistol_colshape.position = Vector2(0, -15)
-			player.pistol_colshape.rotation_degrees = 0
+			player.pistol_colshape.position = Vector2(0, 4)
+			player.pistol_colshape.rotation_degrees = 90
 		Vector2.DOWN:
 			#player.pistol_colshape.position = Vector2(0, 15)
-			player.pistol_colshape.rotation_degrees = -70
+			player.pistol_colshape.rotation_degrees = 270
+
+func pistol_animation_player() -> void:
+	match player.facing_direction:
+		Vector2.LEFT:
+			#review, but for now it works... 
+			player.anim.flip_h = false
+			player.anim.play("left_pistol_attack")
+		Vector2.RIGHT:
+			#player.anim.flip_h = false
+			player.anim.play("left_pistol_attack")
+		Vector2.UP:
+			player.anim.play("up_pistol_attack")
+		Vector2.DOWN:
+			player.anim.play("down_pistol_attack")

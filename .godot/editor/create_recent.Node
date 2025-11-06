@@ -1,3 +1,6 @@
+CollisionShape2D
+Node2D
+HitBox
 State
 Panel
 HBoxContainer
@@ -8,7 +11,4 @@ Control
 CanvasLayer
 Container
 StateMachine
-CollisionShape2D
 HurtBox
-HitBox
-Area2D
