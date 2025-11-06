@@ -6,3 +6,12 @@ extends Area2D
 func _init() -> void:
 	collision_layer = 2
 	collision_mask = 0
+
+
+#
+#enum Entity {
+	#PLAYER = 1,
+	#ENEMY = 2,
+	#NPC = 3,
+	#OBJECT = 4
+#}

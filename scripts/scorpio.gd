@@ -6,6 +6,7 @@ extends CharacterBody2D
 @export var target_tolerance: float = 6.0 # how close before picking a new target
 
 @onready var anim: AnimatedSprite2D = $ScorpioAnim
+@onready var hitboxes: HitBox = $ScorpioHitBox
 
 var start_position: Vector2
 var target_position: Vector2

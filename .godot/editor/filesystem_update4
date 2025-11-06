@@ -12,3 +12,4 @@ res://assets/PNGs/cutting-practice/hearts.tres
 res://scripts/ui scripts/HeartManager.gd
 res://scripts/hero.gd
 res://scripts/state machine scripts/pistol_attack.gd
+res://scripts/HitBox.gd

@@ -1,6 +1,6 @@
 CollisionShape2D
-Node2D
 HitBox
+Node2D
 State
 Panel
 HBoxContainer

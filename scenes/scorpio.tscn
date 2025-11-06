@@ -419,14 +419,15 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_1wcyk"]
 radius = 6.0
 
-[sub_resource type="SegmentShape2D" id="SegmentShape2D_bafos"]
-b = Vector2(0, 20)
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_1wcyk"]
+b = Vector2(0, 22)
 
 [node name="Scorpio" type="CharacterBody2D" groups=["Enemy"]]
 collision_layer = 128
 script = ExtResource("1_djpbc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(1, 4)
 shape = SubResource("RectangleShape2D_djpbc")
 
@@ -444,31 +445,11 @@ metadata/_custom_type_script = "uid://bd8g4eorawbux"
 position = Vector2(0, 3)
 shape = SubResource("CircleShape2D_1wcyk")
 
-[node name="DetectingPlayer" type="Area2D" parent="."]
+[node name="HitBoxes" type="Node2D" parent="."]
+
+[node name="HitBoxUp" type="Area2D" parent="HitBoxes"]
 script = ExtResource("4_1wcyk")
 metadata/_custom_type_script = "uid://80j7toaf48wu"
 
-[node name="UpHitBox" type="CollisionShape2D" parent="DetectingPlayer"]
-position = Vector2(0, 1)
-rotation = -3.1415927
-shape = SubResource("SegmentShape2D_bafos")
-debug_color = Color(0.9894174, 0, 0.2961225, 0.41960785)
-
-[node name="LeftHitBox" type="CollisionShape2D" parent="DetectingPlayer"]
-position = Vector2(0, 1)
-rotation = 1.5707964
-shape = SubResource("SegmentShape2D_bafos")
-debug_color = Color(0.9894174, 0, 0.2961225, 0.41960785)
-
-[node name="RightHitBox" type="CollisionShape2D" parent="DetectingPlayer"]
-position = Vector2(0, 1)
-rotation = 4.712389
-shape = SubResource("SegmentShape2D_bafos")
-debug_color = Color(0.9894174, 0, 0.2961225, 0.41960785)
-
-[node name="DownHitBox" type="CollisionShape2D" parent="DetectingPlayer"]
-position = Vector2(0, 1)
-shape = SubResource("SegmentShape2D_bafos")
-debug_color = Color(0.9894174, 0, 0.2961225, 0.41960785)
-
-[node name="Node2D" type="Node2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBoxes/HitBoxUp"]
+shape = SubResource("SegmentShape2D_1wcyk")
